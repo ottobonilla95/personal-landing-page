@@ -6,7 +6,18 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { motion } from "framer-motion";
 
-const clients = ["Claro", "DEPT", "CarTrawler", "Justerinis"];
+const clients = [
+  { name: "Diageo", location: "London, UK" },
+  { name: "CarTrawler", location: "Dublin, Ireland" },
+  { name: "Justerinis", location: "London, UK" },
+  { name: "Claro", location: "Bogotá, Colombia" },
+  { name: "ME+EM", location: "London, UK" },
+  { name: "SOAFEE", location: "UK" },
+  { name: "IOPEX", location: "SF, CA" },
+  { name: "Agnitu", location: "Puerto Rico" },
+  { name: "DEPT", location: "Ireland / UK / Netherlands" },
+  { name: "Daedalus Design Labs", location: "New York, NY" },
+];
 
 export function AboutSection() {
   const t = useTranslations("about");
@@ -70,8 +81,8 @@ export function AboutSection() {
           <h3 className="text-lg font-semibold">{t("clientsTitle")}</h3>
           <div className="mt-4 flex flex-wrap gap-2">
             {clients.map((client) => (
-              <Badge key={client} variant="outline" className="text-sm">
-                {client}
+              <Badge key={client.name} variant="outline" className="text-sm">
+                {client.name} — {client.location}
               </Badge>
             ))}
           </div>
