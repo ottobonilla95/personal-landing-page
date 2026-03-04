@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { MessageCircle, Mail, Linkedin } from "lucide-react";
+import { MessageCircle, Mail, Linkedin, Twitter } from "lucide-react";
 
 export function ContactSection() {
   const t = useTranslations("contact");
@@ -59,6 +59,16 @@ export function ContactSection() {
             >
               <Linkedin className="mr-2 h-4 w-4" />
               {t("linkedin")}
+            </a>
+          </Button>
+          <Button asChild variant="outline" size="lg">
+            <a
+              href="https://x.com/ottobonilla95"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter className="mr-2 h-4 w-4" />
+              {t("x")}
             </a>
           </Button>
         </motion.div>
