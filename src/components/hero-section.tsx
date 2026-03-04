@@ -1,0 +1,50 @@
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+
+export function HeroSection() {
+  const t = useTranslations("hero");
+
+  return (
+    <section className="relative flex min-h-[80vh] items-center justify-center px-4 sm:px-6">
+      <div className="mx-auto max-w-4xl text-center">
+        <motion.h1
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
+        >
+          {t("headline")}
+        </motion.h1>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground sm:text-xl"
+        >
+          {t("subtitle")}
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-8"
+        >
+          <Button asChild size="lg" className="text-base">
+            <a
+              href="https://wa.me/353830894852"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("cta")}
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </a>
+          </Button>
+        </motion.div>
+      </div>
+    </section>
+  );
+}

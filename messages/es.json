@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "projects": "Proyectos",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "headline": "Ayudo a empresas a lanzar productos impulsados por IA",
+    "subtitle": "De la idea al producto en vivo — construyo MVPs, soluciones de IA y aplicaciones web escalables que generan resultados reales.",
+    "cta": "Hablemos"
+  },
+  "services": {
+    "title": "Lo Que Hago",
+    "mvp": {
+      "title": "Desarrollo de MVP",
+      "description": "Aplicaciones web y móviles full-stack construidas para velocidad. Pasa del concepto al lanzamiento con un producto listo para producción en semanas, no meses."
+    },
+    "ai": {
+      "title": "Soluciones de IA",
+      "description": "Chatbots personalizados, sistemas RAG, agentes de IA y automatización de flujos. Integro IA donde genera valor real para el negocio."
+    },
+    "consulting": {
+      "title": "Consultoría",
+      "description": "Estrategia tecnológica, arquitectura de sistemas y definición de producto. Obtén orientación experta para tomar las decisiones técnicas correctas desde el primer día."
+    }
+  },
+  "projects": {
+    "title": "Trabajo Seleccionado",
+    "dancecircle": {
+      "title": "DanceCircle",
+      "description": "Plataforma social que conecta bailarines con eventos, clases y comunidad. Construida con React Native y funciones en tiempo real."
+    },
+    "trackmyspend": {
+      "title": "TrackMySpend",
+      "description": "Rastreador de finanzas personales con insights impulsados por IA y categorización de gastos. Ayuda a los usuarios a tomar control de su dinero."
+    },
+    "alexmobile": {
+      "title": "AlexMobile",
+      "description": "App de gestión de telecomunicaciones móviles que permite a los clientes administrar sus planes, uso y facturación en un solo lugar."
+    },
+    "aiassistant": {
+      "title": "Asistente IA",
+      "description": "Asistente conversacional inteligente impulsado por arquitectura RAG, entregando respuestas precisas desde bases de conocimiento personalizadas."
+    },
+    "jobmatch": {
+      "title": "Job Match",
+      "description": "Plataforma de emparejamiento laboral impulsada por IA que analiza currículos y descripciones de trabajo para encontrar las mejores oportunidades."
+    }
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Soy Otto Bonilla — un ingeniero de software con más de 9 años de experiencia construyendo productos que la gente realmente usa. Escribí mi primera línea de código a los 13 y nunca paré. He construido software en un submarino nuclear, lanzado productos para marcas globales, y ayudado a startups a ir de cero al lanzamiento.",
+    "clientsTitle": "Empresas Con Las Que He Trabajado",
+    "techTitle": "Stack Principal",
+    "tech": "TypeScript, React, React Native, Next.js, Node.js, Python, AWS, AI/ML, PostgreSQL"
+  },
+  "contact": {
+    "title": "Construyamos Algo Juntos",
+    "subtitle": "¿Tienes un proyecto en mente? Hablemos de cómo puedo ayudarte a hacerlo realidad.",
+    "whatsapp": "Chatea por WhatsApp",
+    "email": "Enviar un Email",
+    "linkedin": "Conectar en LinkedIn"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

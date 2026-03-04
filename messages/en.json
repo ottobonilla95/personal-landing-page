@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "I help businesses launch AI-powered products",
+    "subtitle": "From idea to live product — I build MVPs, AI solutions, and scalable web apps that drive real results.",
+    "cta": "Let's talk"
+  },
+  "services": {
+    "title": "What I Do",
+    "mvp": {
+      "title": "MVP Development",
+      "description": "Full-stack web and mobile applications built for speed. Go from concept to launch with a production-ready product in weeks, not months."
+    },
+    "ai": {
+      "title": "AI Solutions",
+      "description": "Custom chatbots, RAG systems, AI agents, and workflow automation. I integrate AI where it creates real business value."
+    },
+    "consulting": {
+      "title": "Consulting",
+      "description": "Tech strategy, system architecture, and product scoping. Get expert guidance to make the right technical decisions from day one."
+    }
+  },
+  "projects": {
+    "title": "Selected Work",
+    "dancecircle": {
+      "title": "DanceCircle",
+      "description": "Social platform connecting dancers with events, classes, and community. Built with React Native and real-time features."
+    },
+    "trackmyspend": {
+      "title": "TrackMySpend",
+      "description": "Personal finance tracker with AI-powered insights and spending categorization. Helps users take control of their money."
+    },
+    "alexmobile": {
+      "title": "AlexMobile",
+      "description": "Mobile telecom management app enabling customers to manage their plans, usage, and billing in one place."
+    },
+    "aiassistant": {
+      "title": "AI Assistant",
+      "description": "Intelligent conversational assistant powered by RAG architecture, delivering accurate answers from custom knowledge bases."
+    },
+    "jobmatch": {
+      "title": "Job Match",
+      "description": "AI-driven job matching platform that analyzes resumes and job descriptions to find the best-fit opportunities."
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I'm Otto Bonilla — a software engineer with 9+ years of experience building products that people actually use. I wrote my first line of code at 13 and never stopped. I've built software on a nuclear submarine, shipped products for global brands, and helped startups go from zero to launch.",
+    "clientsTitle": "Companies I've Worked With",
+    "techTitle": "Core Stack",
+    "tech": "TypeScript, React, React Native, Next.js, Node.js, Python, AWS, AI/ML, PostgreSQL"
+  },
+  "contact": {
+    "title": "Let's Build Something",
+    "subtitle": "Have a project in mind? Let's talk about how I can help bring it to life.",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Send an Email",
+    "linkedin": "Connect on LinkedIn"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
