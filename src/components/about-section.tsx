@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -21,14 +22,41 @@ export function AboutSection() {
         >
           {t("title")}
         </motion.h2>
+
+        <motion.div
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="mt-8 flex justify-center"
+        >
+          <Image
+            src="/otto.jpg"
+            alt="Otto Bonilla"
+            width={180}
+            height={180}
+            className="rounded-full object-cover"
+            priority
+          />
+        </motion.div>
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.1 }}
+          transition={{ delay: 0.15 }}
           className="mt-8 text-lg leading-relaxed text-muted-foreground"
         >
           {t("bio")}
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.15 }}
+          className="mt-4 text-lg font-medium text-foreground"
+        >
+          {t("reach")}
         </motion.p>
 
         <Separator className="my-10" />

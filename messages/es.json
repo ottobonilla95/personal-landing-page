@@ -51,6 +51,7 @@
   "about": {
     "title": "Sobre Mí",
     "bio": "Soy Otto Bonilla — un ingeniero de software con más de 9 años de experiencia construyendo productos que la gente realmente usa. Escribí mi primera línea de código a los 13 y nunca paré. He construido software en un submarino nuclear, lanzado productos para marcas globales, y ayudado a startups a ir de cero al lanzamiento.",
+    "reach": "He entregado soluciones para clientes en Irlanda, Reino Unido, Nueva York, San Francisco, Puerto Rico y Colombia.",
     "clientsTitle": "Empresas Con Las Que He Trabajado",
     "techTitle": "Stack Principal",
     "tech": "TypeScript, React, React Native, Next.js, Node.js, Python, AWS, AI/ML, PostgreSQL"
