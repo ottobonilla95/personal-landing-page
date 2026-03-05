@@ -27,6 +27,15 @@ export function ServicesSection() {
         >
           {t("title")}
         </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.1 }}
+          className="mx-auto mt-4 max-w-2xl text-center text-lg text-muted-foreground"
+        >
+          {t("subtitle")}
+        </motion.p>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {keys.map((key, i) => {
             const Icon = icons[i];

@@ -7,11 +7,12 @@
   },
   "hero": {
     "headline": "I help businesses launch AI-powered products",
-    "subtitle": "From idea to live product — I build MVPs, AI solutions, and scalable web apps that drive real results.",
+    "subtitle": "From idea to launch — I build MVPs, AI solutions, and scalable web apps that drive real results.",
     "cta": "Let's talk"
   },
   "services": {
     "title": "What I Do",
+    "subtitle": "Web apps, mobile apps, chatbots, AI integrations, automation — if you can dream it, I can build it.",
     "mvp": {
       "title": "MVP Development",
       "description": "Full-stack web and mobile applications built for speed. Go from concept to launch with a production-ready product in weeks, not months."
@@ -22,11 +23,11 @@
     },
     "consulting": {
       "title": "Consulting",
-      "description": "Tech strategy, system architecture, and product scoping. Get expert guidance to make the right technical decisions from day one."
+      "description": "Tech strategy, system architecture, and product scoping. I help you make the right technical decisions from day one."
     }
   },
   "projects": {
-    "title": "Selected Work",
+    "title": "Portfolio",
     "dancecircle": {
       "title": "DanceCircle",
       "description": "Social platform connecting dancers with events, classes, and community. Built with React Native and real-time features."
@@ -50,9 +51,9 @@
   },
   "about": {
     "title": "About Me",
-    "bio": "I'm Otto Bonilla — a software engineer with 9+ years of experience building products that people actually use. I wrote my first line of code at 13 and never stopped. I've built software on a nuclear submarine, shipped products for global brands, and helped startups go from zero to launch.",
-    "reach": "I've delivered solutions for clients across Ireland, the UK, New York, San Francisco, Puerto Rico, and Colombia.",
-    "clientsTitle": "Companies I've Worked With",
+    "bio": "I'm Otto Bonilla — a software engineer with 9+ years of experience building products that people actually use. I wrote my first line of code at 13 and never stopped. I've built software for a mini exploration submarine, shipped products for global brands, and helped startups go from zero to launch.",
+    "reach": "I've worked with clients across Ireland, the UK, New York, San Francisco, Puerto Rico, and Colombia.",
+    "clientsTitle": "Brands I've Worked With",
     "techTitle": "Core Stack",
     "tech": "TypeScript, React, React Native, Next.js, Node.js, Python, AWS, AI/ML, PostgreSQL"
   },

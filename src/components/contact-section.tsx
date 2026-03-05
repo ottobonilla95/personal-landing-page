@@ -46,7 +46,7 @@ export function ContactSection() {
             </a>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <a href="mailto:otto.bonilla.dev@gmail.com">
+            <a href="mailto:mr.bonilla51@gmail.com">
               <Mail className="mr-2 h-4 w-4" />
               {t("email")}
             </a>

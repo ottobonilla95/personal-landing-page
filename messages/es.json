@@ -6,34 +6,35 @@
     "contact": "Contacto"
   },
   "hero": {
-    "headline": "Ayudo a empresas a lanzar productos impulsados por IA",
-    "subtitle": "De la idea al producto en vivo — construyo MVPs, soluciones de IA y aplicaciones web escalables que generan resultados reales.",
+    "headline": "Ayudo a negocios a lanzar productos con IA",
+    "subtitle": "De la idea al producto real — construyo MVPs, soluciones de IA y aplicaciones web escalables que generan resultados de verdad.",
     "cta": "Hablemos"
   },
   "services": {
     "title": "Lo Que Hago",
+    "subtitle": "Aplicaciones web, apps móviles, chatbots, integraciones de IA, automatización — si lo puedes imaginar, lo puedo construir.",
     "mvp": {
       "title": "Desarrollo de MVP",
-      "description": "Aplicaciones web y móviles full-stack construidas para velocidad. Pasa del concepto al lanzamiento con un producto listo para producción en semanas, no meses."
+      "description": "Aplicaciones web y móviles full-stack hechas para lanzar rápido. Pasa de la idea al lanzamiento con un producto listo para producción en semanas, no meses."
     },
     "ai": {
       "title": "Soluciones de IA",
-      "description": "Chatbots personalizados, sistemas RAG, agentes de IA y automatización de flujos. Integro IA donde genera valor real para el negocio."
+      "description": "Chatbots personalizados, sistemas RAG, agentes de IA y automatización de procesos. Integro IA donde genera valor real para el negocio."
     },
     "consulting": {
       "title": "Consultoría",
-      "description": "Estrategia tecnológica, arquitectura de sistemas y definición de producto. Obtén orientación experta para tomar las decisiones técnicas correctas desde el primer día."
+      "description": "Estrategia tecnológica, arquitectura de sistemas y definición de producto. Te ayudo a tomar las decisiones técnicas correctas desde el día uno."
     }
   },
   "projects": {
-    "title": "Trabajo Seleccionado",
+    "title": "Portafolio",
     "dancecircle": {
       "title": "DanceCircle",
-      "description": "Plataforma social que conecta bailarines con eventos, clases y comunidad. Construida con React Native y funciones en tiempo real."
+      "description": "Plataforma social que conecta bailarines con eventos, clases y comunidad. Hecha con React Native y funcionalidades en tiempo real."
     },
     "trackmyspend": {
       "title": "TrackMySpend",
-      "description": "Rastreador de finanzas personales con insights impulsados por IA y categorización de gastos. Ayuda a los usuarios a tomar control de su dinero."
+      "description": "App de finanzas personales con análisis de IA y categorización de gastos. Ayuda a los usuarios a tomar el control de su dinero."
     },
     "alexmobile": {
       "title": "AlexMobile",
@@ -41,18 +42,18 @@
     },
     "aiassistant": {
       "title": "Asistente IA",
-      "description": "Asistente conversacional inteligente impulsado por arquitectura RAG, entregando respuestas precisas desde bases de conocimiento personalizadas."
+      "description": "Asistente conversacional inteligente con arquitectura RAG, que ofrece respuestas precisas desde bases de conocimiento personalizadas."
     },
     "jobmatch": {
       "title": "Job Match",
-      "description": "Plataforma de emparejamiento laboral impulsada por IA que analiza currículos y descripciones de trabajo para encontrar las mejores oportunidades."
+      "description": "Plataforma de búsqueda de empleo con IA que analiza CVs y descripciones de puesto para encontrar las mejores oportunidades."
     }
   },
   "about": {
     "title": "Sobre Mí",
-    "bio": "Soy Otto Bonilla — un ingeniero de software con más de 9 años de experiencia construyendo productos que la gente realmente usa. Escribí mi primera línea de código a los 13 y nunca paré. He construido software en un submarino nuclear, lanzado productos para marcas globales, y ayudado a startups a ir de cero al lanzamiento.",
-    "reach": "He entregado soluciones para clientes en Irlanda, Reino Unido, Nueva York, San Francisco, Puerto Rico y Colombia.",
-    "clientsTitle": "Empresas Con Las Que He Trabajado",
+    "bio": "Soy Otto Bonilla — ingeniero de software con más de 9 años de experiencia construyendo productos que la gente realmente usa. Escribí mi primera línea de código a los 13 y desde entonces no he parado. He construido software para un mini submarino de exploración, lanzado productos para marcas globales, y ayudado a startups a pasar de cero a lanzar.",
+    "reach": "He trabajado con clientes en Irlanda, Reino Unido, Nueva York, San Francisco, Puerto Rico y Colombia.",
+    "clientsTitle": "Marcas Con Las Que He Trabajado",
     "techTitle": "Stack Principal",
     "tech": "TypeScript, React, React Native, Next.js, Node.js, Python, AWS, AI/ML, PostgreSQL"
   },

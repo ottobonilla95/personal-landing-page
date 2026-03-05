@@ -51,7 +51,7 @@ Client-facing freelance/consulting landing page focused on AI consulting + MVP d
 
 ## Contact Details
 - **WhatsApp:** https://wa.me/353830894852
-- **Email:** otto.bonilla.dev@gmail.com
+- **Email:** mr.bonilla51@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/otto-bonilla-93a786119/
 - **X:** https://x.com/ottobonilla95
 
