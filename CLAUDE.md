@@ -60,8 +60,8 @@ Diageo, CarTrawler, Justerinis, Claro, ME+EM, SOAFEE, IOPEX, Agnitu, DEPT, Daeda
 
 ## Git & GitHub
 - **Repo:** https://github.com/ottobonilla95/personal-landing-page
-- **Account:** ottobonilla95 (personal) — switch with `gh auth switch -u ottobonilla95` before push
-- **Work account:** otto-daedalusdesignlabs — always switch back after push
+- **Account:** ottobonilla95 (personal) — **always use this account** for this repo. Run `gh auth switch -u ottobonilla95` before any push/PR operation.
+- **Work account:** otto-daedalusdesignlabs — switch back with `gh auth switch -u otto-daedalusdesignlabs` after push
 - **Local git user:** configured per-repo as ottobonilla95
 
 ## Commands
