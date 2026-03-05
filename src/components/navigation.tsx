@@ -5,8 +5,26 @@ import { useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { useTheme } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, Moon, Sun, Globe } from "lucide-react";
+import { Separator } from "@/components/ui/separator";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetFooter,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import {
+  Menu,
+  Moon,
+  Sun,
+  Globe,
+  Briefcase,
+  FolderOpen,
+  User,
+  MessageCircle,
+  ArrowRight,
+} from "lucide-react";
 import { useRouter, usePathname } from "@/i18n/navigation";
 import { useState } from "react";
 
@@ -24,10 +42,10 @@ export function Navigation() {
   };
 
   const sections = [
-    { href: "#services", label: t("services") },
-    { href: "#projects", label: t("projects") },
-    { href: "#about", label: t("about") },
-    { href: "#contact", label: t("contact") },
+    { href: "#services", label: t("services"), icon: Briefcase },
+    { href: "#projects", label: t("projects"), icon: FolderOpen },
+    { href: "#about", label: t("about"), icon: User },
+    { href: "#contact", label: t("contact"), icon: MessageCircle },
   ];
 
   return (
@@ -98,19 +116,57 @@ export function Navigation() {
                 <Menu className="h-5 w-5" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-64">
-              <div className="mt-8 flex flex-col gap-4">
-                {sections.map((s) => (
-                  <a
-                    key={s.href}
-                    href={s.href}
-                    onClick={() => setOpen(false)}
-                    className="text-lg font-medium text-foreground"
+            <SheetContent side="right" className="w-72 px-0">
+              <SheetHeader className="px-6 pb-2">
+                <SheetTitle className="text-left text-xl tracking-tight">
+                  Otto Bonilla
+                </SheetTitle>
+              </SheetHeader>
+              <Separator />
+              <nav className="flex flex-col gap-1 px-3 py-4">
+                {sections.map((s) => {
+                  const Icon = s.icon;
+                  return (
+                    <a
+                      key={s.href}
+                      href={s.href}
+                      onClick={() => setOpen(false)}
+                      className="group flex items-center gap-3 rounded-lg px-3 py-3 text-base font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                    >
+                      <Icon className="h-5 w-5" />
+                      {s.label}
+                      <ArrowRight className="ml-auto h-4 w-4 opacity-0 transition-opacity group-hover:opacity-100" />
+                    </a>
+                  );
+                })}
+              </nav>
+              <Separator />
+              <SheetFooter className="px-6 pt-4">
+                <div className="flex items-center gap-2">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={switchLocale}
+                    className="flex-1 gap-2"
                   >
-                    {s.label}
-                  </a>
-                ))}
-              </div>
+                    <Globe className="h-4 w-4" />
+                    {locale === "en" ? "Español" : "English"}
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={toggleTheme}
+                    className="flex-1 gap-2"
+                  >
+                    {theme === "dark" ? (
+                      <Sun className="h-4 w-4" />
+                    ) : (
+                      <Moon className="h-4 w-4" />
+                    )}
+                    {theme === "dark" ? "Light" : "Dark"}
+                  </Button>
+                </div>
+              </SheetFooter>
             </SheetContent>
           </Sheet>
         </div>
