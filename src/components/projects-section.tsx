@@ -38,6 +38,11 @@ const projects = [
     url: "https://www.meandem.com/int",
   },
   {
+    key: "bondmedia",
+    tags: ["Next.js", "Media", "Creative"],
+    url: "https://bondmediastudios.com/",
+  },
+  {
     key: "agnitu",
     tags: ["React", "SaaS"],
     url: "https://www.agnitu.com/",
