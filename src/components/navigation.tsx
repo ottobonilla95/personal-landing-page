@@ -3,7 +3,6 @@
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { useTheme } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -16,8 +15,6 @@ import {
 } from "@/components/ui/sheet";
 import {
   Menu,
-  Moon,
-  Sun,
   Globe,
   Briefcase,
   FolderOpen,
@@ -31,7 +28,6 @@ import { useState } from "react";
 export function Navigation() {
   const t = useTranslations("nav");
   const locale = useLocale();
-  const { theme, toggleTheme } = useTheme();
   const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -74,18 +70,6 @@ export function Navigation() {
           >
             <Globe className="h-4 w-4" />
           </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleTheme}
-            aria-label="Toggle theme"
-          >
-            {theme === "dark" ? (
-              <Sun className="h-4 w-4" />
-            ) : (
-              <Moon className="h-4 w-4" />
-            )}
-          </Button>
         </div>
 
         {/* Mobile nav */}
@@ -97,18 +81,6 @@ export function Navigation() {
             aria-label="Switch language"
           >
             <Globe className="h-4 w-4" />
-          </Button>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={toggleTheme}
-            aria-label="Toggle theme"
-          >
-            {theme === "dark" ? (
-              <Sun className="h-4 w-4" />
-            ) : (
-              <Moon className="h-4 w-4" />
-            )}
           </Button>
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
@@ -142,30 +114,15 @@ export function Navigation() {
               </nav>
               <Separator />
               <SheetFooter className="px-6 pt-4">
-                <div className="flex items-center gap-2">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={switchLocale}
-                    className="flex-1 gap-2"
-                  >
-                    <Globe className="h-4 w-4" />
-                    {locale === "en" ? "Español" : "English"}
-                  </Button>
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    onClick={toggleTheme}
-                    className="flex-1 gap-2"
-                  >
-                    {theme === "dark" ? (
-                      <Sun className="h-4 w-4" />
-                    ) : (
-                      <Moon className="h-4 w-4" />
-                    )}
-                    {theme === "dark" ? "Light" : "Dark"}
-                  </Button>
-                </div>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={switchLocale}
+                  className="w-full gap-2"
+                >
+                  <Globe className="h-4 w-4" />
+                  {locale === "en" ? "Español" : "English"}
+                </Button>
               </SheetFooter>
             </SheetContent>
           </Sheet>

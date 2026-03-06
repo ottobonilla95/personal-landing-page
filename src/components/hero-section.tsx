@@ -9,8 +9,19 @@ export function HeroSection() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative flex min-h-[80vh] items-center justify-center px-4 sm:px-6">
-      <div className="mx-auto max-w-4xl text-center">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 sm:px-6">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 h-full w-full object-cover"
+        poster=""
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-black/90" />
+      <div className="relative z-10 mx-auto max-w-4xl text-center">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
