@@ -84,10 +84,6 @@
       "title": "AlexMobile",
       "description": "App de gestión de telecomunicaciones móviles que permite a los clientes administrar sus planes, uso y facturación en un solo lugar."
     },
-    "aiassistant": {
-      "title": "Asistente IA",
-      "description": "Asistente conversacional inteligente con arquitectura RAG, que ofrece respuestas precisas desde bases de conocimiento personalizadas."
-    },
     "jobmatch": {
       "title": "Job Match",
       "description": "Plataforma de búsqueda de empleo con IA que analiza CVs y descripciones de puesto para encontrar las mejores oportunidades."

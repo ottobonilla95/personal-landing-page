@@ -84,10 +84,6 @@
       "title": "AlexMobile",
       "description": "Mobile telecom management app enabling customers to manage their plans, usage, and billing in one place."
     },
-    "aiassistant": {
-      "title": "AI Assistant",
-      "description": "Intelligent conversational assistant powered by RAG architecture, delivering accurate answers from custom knowledge bases."
-    },
     "jobmatch": {
       "title": "Job Match",
       "description": "AI-driven job matching platform that analyzes resumes and job descriptions to find the best-fit opportunities."

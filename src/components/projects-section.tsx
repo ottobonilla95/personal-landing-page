@@ -66,10 +66,9 @@ const projects = [
     tags: ["Web", "Consulting"],
     url: "https://tatic.net/es/",
   },
-  { key: "dancecircle", tags: ["React Native", "Social"] },
-  { key: "trackmyspend", tags: ["AI", "Fintech"] },
+  { key: "dancecircle", tags: ["React Native", "Social"], url: "http://dancecircle.co/" },
+  { key: "trackmyspend", tags: ["AI", "Fintech"], url: "https://www.trackmyspend.co" },
   { key: "alexmobile", tags: ["Mobile", "Telecom"] },
-  { key: "aiassistant", tags: ["RAG", "AI"] },
   { key: "jobmatch", tags: ["AI", "Matching"] },
 ] as const;
 
