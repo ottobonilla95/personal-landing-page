@@ -17,6 +17,9 @@ const clients = [
   { name: "Agnitu", location: "Puerto Rico" },
   { name: "DEPT", location: "Ireland / UK / Netherlands" },
   { name: "Daedalus Design Labs", location: "New York, NY" },
+  { name: "IQ Outsourcing", location: "Bogotá, Colombia" },
+  { name: "Digitalware", location: "Bogotá, Colombia" },
+  { name: "Tatic", location: "Colombia" },
 ];
 
 export function AboutSection() {

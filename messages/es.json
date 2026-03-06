@@ -28,6 +28,46 @@
   },
   "projects": {
     "title": "Portafolio",
+    "iopex": {
+      "title": "IOPEX Technologies",
+      "description": "Actualmente construyendo soluciones de automatización con IA y procesos inteligentes en IOPEX, líder global en outsourcing de procesos y transformación digital."
+    },
+    "agnitu": {
+      "title": "Agnitu",
+      "description": "Desarrollé soluciones de software para Agnitu, una plataforma enfocada en verificación de identidad y tecnología de cumplimiento."
+    },
+    "claro": {
+      "title": "Claro Colombia",
+      "description": "Construí soluciones digitales para Claro Colombia, uno de los proveedores de telecomunicaciones más grandes de Latinoamérica con millones de clientes."
+    },
+    "iqoutsourcing": {
+      "title": "IQ Outsourcing",
+      "description": "Desarrollé software empresarial para IQ Outsourcing, una empresa líder colombiana de BPO especializada en gestión documental y optimización de procesos."
+    },
+    "digitalware": {
+      "title": "Digitalware",
+      "description": "Construí soluciones de software empresarial en Digitalware, una empresa colombiana especializada en transformación digital y plataformas de gestión empresarial."
+    },
+    "tatic": {
+      "title": "Tatic",
+      "description": "Desarrollé soluciones web para Tatic, una firma de consultoría y servicios tecnológicos que impulsa la transformación digital en Latinoamérica."
+    },
+    "justerinis": {
+      "title": "Justerini & Brooks",
+      "description": "Plataforma e-commerce para uno de los comerciantes de vinos y licores más antiguos del mundo. Construí una experiencia digital premium para la marca de lujo de Diageo."
+    },
+    "cartrawler": {
+      "title": "CarTrawler Customer Portal",
+      "description": "Construí el portal de clientes para la plataforma de viajes B2B de CarTrawler, permitiendo a los socios gestionar alquiler de autos y soluciones de movilidad a escala."
+    },
+    "meandem": {
+      "title": "ME+EM Homepage",
+      "description": "Construí la página principal de ME+EM, una marca británica de moda de lujo. Entregué una experiencia de tienda visualmente rica y de alto rendimiento."
+    },
+    "soafee": {
+      "title": "SOAFEE",
+      "description": "Lideré la migración del sitio web de SOAFEE — una iniciativa de Arm que define una arquitectura de software para computación en el borde automotriz."
+    },
     "dancecircle": {
       "title": "DanceCircle",
       "description": "Plataforma social que conecta bailarines con eventos, clases y comunidad. Hecha con React Native y funcionalidades en tiempo real."

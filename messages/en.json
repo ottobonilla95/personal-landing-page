@@ -28,6 +28,46 @@
   },
   "projects": {
     "title": "Portfolio",
+    "iopex": {
+      "title": "IOPEX Technologies",
+      "description": "Currently building AI-powered automation and intelligent process solutions at IOPEX, a global leader in business process outsourcing and digital transformation."
+    },
+    "agnitu": {
+      "title": "Agnitu",
+      "description": "Developed software solutions for Agnitu, a platform focused on identity verification and compliance technology."
+    },
+    "claro": {
+      "title": "Claro Colombia",
+      "description": "Built digital solutions for Claro Colombia, one of Latin America's largest telecommunications providers serving millions of customers."
+    },
+    "iqoutsourcing": {
+      "title": "IQ Outsourcing",
+      "description": "Developed enterprise software for IQ Outsourcing, a leading Colombian BPO company specializing in document management and process optimization."
+    },
+    "digitalware": {
+      "title": "Digitalware",
+      "description": "Built enterprise software solutions at Digitalware, a Colombian company specializing in digital transformation and business management platforms."
+    },
+    "tatic": {
+      "title": "Tatic",
+      "description": "Developed web solutions for Tatic, a consulting and technology services firm delivering digital transformation across Latin America."
+    },
+    "justerinis": {
+      "title": "Justerini & Brooks",
+      "description": "E-commerce platform for one of the world's oldest wine and spirits merchants. Built a premium digital experience for Diageo's luxury brand."
+    },
+    "cartrawler": {
+      "title": "CarTrawler Customer Portal",
+      "description": "Built the customer portal for CarTrawler's B2B travel platform, enabling partners to manage car rental and mobility solutions at scale."
+    },
+    "meandem": {
+      "title": "ME+EM Homepage",
+      "description": "Built the homepage for ME+EM, a British luxury fashion brand. Delivered a high-performance, visually rich storefront experience."
+    },
+    "soafee": {
+      "title": "SOAFEE",
+      "description": "Led the migration of SOAFEE's website — an Arm-led initiative defining a software architecture for automotive edge computing."
+    },
     "dancecircle": {
       "title": "DanceCircle",
       "description": "Social platform connecting dancers with events, classes, and community. Built with React Native and real-time features."
