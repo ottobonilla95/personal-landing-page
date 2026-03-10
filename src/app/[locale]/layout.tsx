@@ -52,6 +52,9 @@ export async function generateMetadata({
   return {
     title: m.title,
     description: m.description,
+    other: {
+      "facebook-domain-verification": "1kmjc5tyxbnl3kzpjyhez74a03in3o",
+    },
     alternates: {
       languages: {
         en: "/en",
