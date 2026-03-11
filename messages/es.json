@@ -104,6 +104,27 @@
   "contact": {
     "title": "Construyamos Algo Juntos",
     "subtitle": "¿Tienes un proyecto en mente? Hablemos de cómo puedo ayudarte a hacerlo realidad.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "description": "Descripción del Proyecto",
+      "descriptionPlaceholder": "Cuéntame sobre tu proyecto, objetivos y tiempos...",
+      "budget": "Rango de Presupuesto",
+      "budgetPlaceholder": "Selecciona un rango",
+      "budgetOptions": {
+        "under1k": "Menos de $1,000",
+        "1kTo5k": "$1,000 – $5,000",
+        "5kTo20k": "$5,000 – $20,000",
+        "over20k": "$20,000+"
+      },
+      "submit": "Enviar Mensaje",
+      "successTitle": "¡Mensaje Enviado!",
+      "successMessage": "Gracias por escribirme. Te responderé en menos de 24 horas.",
+      "error": "Algo salió mal. Intenta de nuevo o contáctame directamente."
+    },
+    "orReachOut": "O contáctame directamente",
     "whatsapp": "Chatea por WhatsApp",
     "email": "Enviar un Email",
     "linkedin": "Conectar en LinkedIn",

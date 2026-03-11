@@ -104,6 +104,27 @@
   "contact": {
     "title": "Let's Build Something",
     "subtitle": "Have a project in mind? Let's talk about how I can help bring it to life.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "description": "Project Description",
+      "descriptionPlaceholder": "Tell me about your project, goals, and timeline...",
+      "budget": "Budget Range",
+      "budgetPlaceholder": "Select a budget range",
+      "budgetOptions": {
+        "under1k": "Less than $1,000",
+        "1kTo5k": "$1,000 – $5,000",
+        "5kTo20k": "$5,000 – $20,000",
+        "over20k": "$20,000+"
+      },
+      "submit": "Send Message",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thanks for reaching out. I'll get back to you within 24 hours.",
+      "error": "Something went wrong. Please try again or reach out directly."
+    },
+    "orReachOut": "Or reach out directly",
     "whatsapp": "Chat on WhatsApp",
     "email": "Send an Email",
     "linkedin": "Connect on LinkedIn",
