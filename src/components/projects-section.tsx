@@ -20,7 +20,7 @@ const projects = [
   {
     key: "rentbot",
     tags: ["AI", "SaaS", "Chatbot", "WhatsApp"],
-    url: "https://rentbot-six.vercel.app/",
+    url: "https://www.rentbot.io/",
   },
   {
     key: "justerinis",
