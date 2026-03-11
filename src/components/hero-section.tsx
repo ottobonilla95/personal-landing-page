@@ -45,11 +45,7 @@ export function HeroSection() {
           className="mt-8"
         >
           <Button asChild size="lg" className="text-base">
-            <a
-              href="https://wa.me/353830894852"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="#contact">
               {t("cta")}
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>

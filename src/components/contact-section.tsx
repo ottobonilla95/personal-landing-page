@@ -155,48 +155,42 @@ export function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.25 }}
-          className="mt-8"
+          className="mt-6 text-center text-sm text-muted-foreground"
         >
-          <p className="mb-4 text-center text-sm text-muted-foreground">
-            {t("orReachOut")}
-          </p>
-          <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-            <Button asChild variant="outline" size="lg">
-              <a
-                href="https://wa.me/353830894852"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MessageCircle className="mr-2 h-4 w-4" />
-                {t("whatsapp")}
-              </a>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <a href="mailto:mr.bonilla51@gmail.com">
-                <Mail className="mr-2 h-4 w-4" />
-                {t("email")}
-              </a>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <a
-                href="https://www.linkedin.com/in/otto-bonilla-93a786119/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="mr-2 h-4 w-4" />
-                {t("linkedin")}
-              </a>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <a
-                href="https://x.com/ottobonilla95"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Twitter className="mr-2 h-4 w-4" />
-                {t("x")}
-              </a>
-            </Button>
+          <p>{t("orReachOut")}</p>
+          <div className="mt-2 flex items-center justify-center gap-4">
+            <a
+              href="https://wa.me/353830894852"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 underline-offset-4 hover:text-foreground hover:underline"
+            >
+              <MessageCircle className="h-4 w-4" />
+              {t("whatsapp")}
+            </a>
+            <a
+              href="mailto:mr.bonilla51@gmail.com"
+              className="inline-flex items-center gap-1.5 underline-offset-4 hover:text-foreground hover:underline"
+            >
+              <Mail className="h-4 w-4" />
+              {t("email")}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otto-bonilla-93a786119/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 underline-offset-4 hover:text-foreground hover:underline"
+            >
+              <Linkedin className="h-4 w-4" />
+            </a>
+            <a
+              href="https://x.com/ottobonilla95"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 underline-offset-4 hover:text-foreground hover:underline"
+            >
+              <Twitter className="h-4 w-4" />
+            </a>
           </div>
         </motion.div>
       </div>
