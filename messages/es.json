@@ -111,7 +111,7 @@
       "emailPlaceholder": "tu@ejemplo.com",
       "description": "Descripción del Proyecto",
       "descriptionPlaceholder": "Cuéntame sobre tu proyecto, objetivos y tiempos...",
-      "budget": "Rango de Presupuesto",
+      "budget": "Rango de Presupuesto (USD)",
       "budgetPlaceholder": "Selecciona un rango",
       "budgetOptions": {
         "under1k": "Menos de $1,000",

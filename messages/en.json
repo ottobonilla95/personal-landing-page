@@ -111,7 +111,7 @@
       "emailPlaceholder": "you@example.com",
       "description": "Project Description",
       "descriptionPlaceholder": "Tell me about your project, goals, and timeline...",
-      "budget": "Budget Range",
+      "budget": "Budget Range (USD)",
       "budgetPlaceholder": "Select a budget range",
       "budgetOptions": {
         "under1k": "Less than $1,000",
