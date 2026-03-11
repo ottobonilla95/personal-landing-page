@@ -18,6 +18,11 @@ const projects = [
     url: "https://www.iopex.com/",
   },
   {
+    key: "rentbot",
+    tags: ["AI", "SaaS", "Chatbot", "WhatsApp"],
+    url: "https://rentbot-six.vercel.app/",
+  },
+  {
     key: "justerinis",
     tags: ["Next.js", "E-commerce", "Luxury"],
     url: "https://www.justerinis.com/",
